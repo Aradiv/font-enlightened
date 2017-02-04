@@ -1,0 +1,13 @@
+{
+    "name": "aradiv/font-enlightened",
+    "description": "Font Enlightened",
+	"keywords": ["font", "enlightened", "fontenlightened", "icon"],
+    "license": "OFL-1.1",
+    "authors": [
+        {
+            "name": "Eric Brüggemann",
+            "email": "develop@aradiv.de"
+        }
+    ],
+    "require": {}
+}
