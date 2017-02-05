@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "sass" : "npm run sass-compressed && npm run sass-expanded",
+    "sass-compressed": "node-sass --output-style compressed scss/font-enlightened.scss > css/font-enlightened.min.css",
+    "sass-expanded": "node-sass --output-style expanded scss/font-enlightened.scss > css/font-enlightened.css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.0"
+  }
+}

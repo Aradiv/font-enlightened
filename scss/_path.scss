@@ -1,0 +1,15 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'FontEnlightened';
+  src: url('#{$fe-font-path}/font-enlightened.eot?v=#{$fe-version}');
+  src: url('#{$fe-font-path}/font-enlightened.eot?#iefix&v=#{$fe-version}') format('embedded-opentype'),
+    url('#{$fe-font-path}/font-enlightened.woff2?v=#{$fe-version}') format('woff2'),
+    url('#{$fe-font-path}/font-enlightened.woff?v=#{$fe-version}') format('woff'),
+    url('#{$fe-font-path}/font-enlightened.ttf?v=#{$fe-version}') format('truetype'),
+    url('#{$fe-font-path}/font-enlightened.svg?v=#{$fe-version}#fontenlightenedregular') format('svg');
+//  src: url('#{$fe-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,34 @@
+// Spinning Icons
+// --------------------------
+
+.#{$fe-css-prefix}-spin {
+  -webkit-animation: fe-spin 2s infinite linear;
+          animation: fe-spin 2s infinite linear;
+}
+
+.#{$fe-css-prefix}-pulse {
+  -webkit-animation: fe-spin 1s infinite steps(8);
+          animation: fe-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fe-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes fe-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
