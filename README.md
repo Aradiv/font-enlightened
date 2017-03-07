@@ -1,5 +1,5 @@
 #Font-Enlightened
-Font-Enlightened is a icon font with icons from the argumented reality game Ingress from Niantic.
+Font-Enlightened is a icon font with icons from the augmented reality game Ingress from Niantic.
 
 ## Usage
 ```

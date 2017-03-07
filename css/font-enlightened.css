@@ -1,16 +1,20 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontEnlightened';
-  src: url("../fonts/font-enlightened.eot?v=0.0.2");
-  src: url("../fonts/font-enlightened.eot?#iefix&v=0.0.2") format("embedded-opentype"), url("../fonts/font-enlightened.woff2?v=0.0.2") format("woff2"), url("../fonts/font-enlightened.woff?v=0.0.2") format("woff"), url("../fonts/font-enlightened.ttf?v=0.0.2") format("truetype"), url("../fonts/font-enlightened.svg?v=0.0.2#fontenlightenedregular") format("svg");
+  src: url("../fonts/font-enlightened.eot?v=0.0.3");
+  src: url("../fonts/font-enlightened.eot?#iefix&v=0.0.3") format("embedded-opentype"), url("../fonts/font-enlightened.woff2?v=0.0.3") format("woff2"), url("../fonts/font-enlightened.woff?v=0.0.3") format("woff"), url("../fonts/font-enlightened.ttf?v=0.0.3") format("truetype"), url("../fonts/font-enlightened.svg?v=0.0.3#fontenlightenedregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 .fe {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 14px/1 FontEnlightened;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -207,6 +211,26 @@
 
 .fe-inverse {
   color: #fff;
+}
+
+.fe-bronze {
+  color: #49200c;
+}
+
+.fe-silver {
+  color: #3c4043;
+}
+
+.fe-gold {
+  color: #6d4d25;
+}
+
+.fe-platinum {
+  color: #2a2a2b;
+}
+
+.fe-onyx {
+  color: #121011;
 }
 
 .fe-badge:before {
