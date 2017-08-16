@@ -9,11 +9,11 @@ Font-Enlightened is a icon font with icons from the augmented reality game Ingre
   <i class="fe fe-verified fe-stack-1x fe-inverse"></i>
 </span>
 <i class="fe fe-rocks"></i>
-<i class="fe 
+<i class="fe
 ```
 
 ## used tools
-Fontfiles are generated using [IconMoon] \
+Fontfiles are generated using [IcoMoon] \
 CSS is generated using [node-sass]
 
 ## LICENCE Informations
@@ -28,8 +28,8 @@ The files under scss/ are based on (or copied from) [FontAwesome]
 
 ## Service Icons
 * All Service icons are tradmarks of there respective owner
-* please do not use service icons for any other purpose except to represent that particular service 
+* please do not use service icons for any other purpose except to represent that particular service
 
 [FontAwesome]: https://github.com/fortawesome/font-awesome
-[IconMoon]: https://iconmoon.io
+[IcoMoon]: https://icomoon.io
 [node-sass]: https://www.npmjs.com/package/node-sass
